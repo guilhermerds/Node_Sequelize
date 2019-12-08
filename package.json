@@ -1,0 +1,19 @@
+{
+  "name": "Node_Sequelize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/guilhermerds/Node_Sequelize.git",
+  "author": "Guilherme <guilherme.rodriguesdasilva1010@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "sequelize": "^5.21.2"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
